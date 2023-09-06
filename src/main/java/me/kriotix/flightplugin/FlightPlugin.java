@@ -7,7 +7,7 @@ public final class FlightPlugin extends JavaPlugin{
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        // Registering the commmand
         getCommand("fly").setExecutor(new FlyCommand(this));
     }
 

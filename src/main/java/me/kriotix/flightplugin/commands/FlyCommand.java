@@ -17,7 +17,7 @@ public class FlyCommand implements CommandExecutor {
         this.plugin = plugin;
     }
 
-    //The command itself
+    //Runs when the command is typed (what the command does)
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
        //Won't activate if not a player
@@ -56,4 +56,5 @@ public class FlyCommand implements CommandExecutor {
         }
         return true;
     }
+
 }
