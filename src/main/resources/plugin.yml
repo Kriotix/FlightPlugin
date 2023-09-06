@@ -1,0 +1,7 @@
+name: FlightPlugin
+version: '${project.version}'
+main: me.kriotix.flightplugin.FlightPlugin
+api-version: '1.19'
+commands:
+  fly:
+    description: fly
